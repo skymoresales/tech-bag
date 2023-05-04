@@ -27,9 +27,7 @@ section {
     position: relative;
     overflow: hidden;
 }
-.white {
-  min-height: 222px;
-}
+
 img,
 video,
 iframe {
@@ -94,17 +92,7 @@ a {
     white-space: normal;
     display: inline-block;
 }
-section {
-  overflow: hidden;
-}
-img {
-  border: 3px solid #ddb3b3;
-  border-radius: 30px;
-  padding: 4px;
-}
 .logo {
-  border: none;
-  padding: 0;
   text-align: center;
   background: white;
   border-radius: 50%;
@@ -168,7 +156,7 @@ img {
     margin: auto;
  }
  
-/*  
+/* 
 =================================================================
                 Start Section story-section 
 =================================================================
@@ -471,7 +459,6 @@ footer .maroof img {
   text-align: center;
   direction: ltr;
   padding: 10px 0px;
-  overflow: hidden;
 }
 
 .countdown h3 {
@@ -565,7 +552,7 @@ footer .maroof img {
 }
 .over .over-box {
   border: 1.5px solid #ddd;
-  max-width: 350px;
+  max-width: 800px;
   margin: auto;
   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
 }
@@ -577,15 +564,8 @@ footer .maroof img {
 .over .box-header .over__alter {
   background: #5FCD71;
 }
-.over_title {
-  font-size: 16px;
-}
 .over .box-header .over__desc {
   padding-bottom: 10px;
-  font-size: 13px;
-}
-.over ul {
-  padding: 0px;
 }
 .over svg {
   width: 20px;
@@ -594,13 +574,15 @@ footer .maroof img {
 .over img {
   margin-bottom: 15px;
 }
+.over .white img:first-child {
+  border-right: 5px solid black;
+}
 .over ul li  {
   color: #605943;
   margin-bottom: 20px;
   position: relative;
   padding-bottom: 5px;
   text-align: right;
-  font-size: 13px;
 }
 .over ul li::before {
   content: "";
@@ -616,19 +598,8 @@ footer .maroof img {
   text-decoration: line-through;
 }
 .new-price {
-  font-size: 16px;
+  font-size: 18px;
   color: red;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-.over__box-body,
-.over__footer {
-  padding: 10px;
-}
-.over h3 {
-  font-size: 16px;
-}
-.over__title {
-  font-size: 16px;
-  padding-bottom: 10px;
 }
