@@ -86,7 +86,6 @@ a {
     }
 }
 .main-title-dash {
-    color: #6dd2b2;
     border-radius: 25px 0px 0px 30px;
     padding: 0px 2px;
     white-space: normal;
@@ -133,17 +132,17 @@ a {
     position: relative;
     text-align: center;
     padding-bottom: 15px;
-    background: #116089;
+    background: white;
 
 }
 .section-home .section-home__main-title {
-    color: var(--on-primary-color);
+    color: black;
     margin-bottom: 15px;
     line-height: 1.8;
     font-size: 22px;
 }
 .section-home .section-home__sub-title { 
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     position: relative;
     z-index: 444;
     font-size: 13px;
@@ -299,7 +298,7 @@ END WHY-US
     position: absolute;
     bottom: 19px;
     left: 50%;
-    background: #11608996;
+    background: #c763a8ad;
     width: 100%;
     height: 50px;
     border-radius: 20px 3px 14px 9px;
